@@ -1,0 +1,90 @@
+
+
+body{
+    background-color: rgb(148, 238, 208);
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 50px;
+    padding: 5px;
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 10px;
+}
+
+.welcome{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: cornflowerblue;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.sub-header{
+    color: cornflowerblue;
+    font-family: cursive;
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sub-header h1{
+    font-size: 50px;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+}
+
+.header img{
+    height: auto;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.yapping{
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+.yapping p{
+    padding: 0;
+    margin: 0;
+}
+
+.join button{
+    float: right;
+    background-color: #d9edff;
+    border-radius: 50px;
+    height: 50px;
+    color: rgba(84, 124, 199, 0.961);
+    border: 2px solid #008CBA;
+}
+
+.join button:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+.one{
+    height: 100vh;
+}
+
+

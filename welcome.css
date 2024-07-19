@@ -130,10 +130,11 @@ body{
 .visual{
     width: 60%;
     float: right;
+    margin-bottom: 1%;
 }
 
 .visual img{
-    float: right;
+    width: 80%;
 }
 
 .visual p{
@@ -142,9 +143,67 @@ body{
     font-size: 15px;
 }
 
+.three{
+    height: 100vh;
+    width: 100%;
+    font-family: "Family Grotesk", sans-serif;
+}
 
+.sub-three{
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+.sub-three h4{
+    font-size: 50px;
+    font-family: "Family Grotesk", sans-serif;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
+}
 
+.sub-three p{
+    font-size: 20px;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
+    width: 40%;
+}
+
+.story{
+    width: 100%;
+    margin-top: 11%;
+}
+
+.story hr{
+    height: 2px !important;
+    color: rgba(28, 91, 208, 0.961);
+    opacity: 1 !important;
+}
+
+.intro{
+    width: 50%;
+    float: left;
+}
+
+.intro h6{
+    font-size: 30px;
+    font-family: "Family Grotesk", sans-serif;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
+
+}
+
+.comment{
+    width: 50%;
+    float: right;
+    font-style: "Family Grotesk", sans-serif;
+}
+
+.comment p{
+    float: right;
+    font-weight: lighter;
+    font-size: 20px;
+}
 
 
 

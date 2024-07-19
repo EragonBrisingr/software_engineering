@@ -1,7 +1,6 @@
 
 
 body{
-    background-color: rgb(148, 238, 208);
     margin: 0;
     padding: 0;
 }
@@ -32,7 +31,6 @@ body{
 
 .sub-header{
     color: rgba(28, 91, 208, 0.961);
-
     font-family: "Familjen Grotesk", sans-serif;
     margin: 3%;
     margin-left: 5%;
@@ -40,7 +38,7 @@ body{
 }
 
 .sub-header h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .header{
@@ -114,6 +112,39 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.sub-two h3{
+    font-size: 50px;
+    font-family: "Familjen Grotesk", sans-serif;
+    color: rgba(28, 91, 208, 0.961);
+}
+
+.approach{
+    margin-top: 2%;
+    font-size: 25px;
+    width: 60%;
+    font-weight: bold;
+    color: rgba(28, 91, 208, 0.961);
+}
+
+.visual{
+    width: 60%;
+    float: right;
+}
+
+.visual img{
+    float: right;
+}
+
+.visual p{
+    width: 80%;
+    color: rgba(28, 91, 208, 0.961);
+    font-size: 15px;
+}
+
+
+
+
 
 
 

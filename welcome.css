@@ -144,7 +144,7 @@ body{
 }
 
 .three{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     font-family: "Family Grotesk", sans-serif;
 }
@@ -171,11 +171,13 @@ body{
 
 .story{
     width: 100%;
-    margin-top: 11%;
+    position: relative;
+    display: flex;
+    padding: 5px;
 }
 
-.story hr{
-    height: 2px !important;
+.sub-three hr{
+    height: 1px !important;
     color: rgba(28, 91, 208, 0.961);
     opacity: 1 !important;
 }
@@ -183,28 +185,81 @@ body{
 .intro{
     width: 50%;
     float: left;
+    color: rgba(28, 91, 208, 0.961);
 }
 
 .intro h6{
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Family Grotesk", sans-serif;
     color: rgba(28, 91, 208, 0.961);
     font-weight: bold;
-
 }
 
 .comment{
     width: 50%;
     float: right;
-    font-style: "Family Grotesk", sans-serif;
 }
 
 .comment p{
+    font-size: 10px;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
     float: right;
-    font-weight: lighter;
-    font-size: 20px;
 }
 
 
 
 
+
+.footer{
+    background-color: #c7e4fe;
+    height: 70vh;
+}
+
+.footer-content{
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer-content h6{
+    font-size: 30px;
+    font-family: "Family Grotesk", sans-serif;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
+}
+
+.footer-left{
+    width: 50%;
+    float: left;
+}
+
+.footer-content ul{
+    list-style-type: none;
+}
+
+.footer-content li{
+    font-size: 20px;
+    font-family: "Family Grotesk", sans-serif;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
+}
+
+.footer-right{
+    width: 50%;
+    float: right;
+}
+
+.footer-right h6{
+    font-size: 30px;
+    font-family: "Family Grotesk", sans-serif;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
+}
+
+.footer-right p{
+    font-size: 20px;
+    font-family: "Family Grotesk", sans-serif;
+    color: rgba(28, 91, 208, 0.961);
+    font-weight: bold;
+}

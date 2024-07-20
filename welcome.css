@@ -5,6 +5,11 @@ body{
     padding: 0;
 }
 
+hr{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .nav{
     height: 50px;
     padding: 5px;
@@ -144,7 +149,7 @@ body{
 }
 
 .three{
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     font-family: "Family Grotesk", sans-serif;
 }
@@ -208,58 +213,67 @@ body{
 }
 
 
-
-
-
 .footer{
     background-color: #c7e4fe;
-    height: 70vh;
-}
-
-.footer-content{
-    margin: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.footer-content h6{
-    font-size: 30px;
-    font-family: "Family Grotesk", sans-serif;
+    height: 20vh;
+    padding-top: 10px;
     color: rgba(28, 91, 208, 0.961);
-    font-weight: bold;
+
 }
 
-.footer-left{
-    width: 50%;
+.sub-footer{
+    margin: 2%;
+    position: relative;
+    display: flex;
+}
+
+.footer hr{
+    height: 1px !important;
+    color: rgba(28, 91, 208, 0.961);
+    opacity: 1 !important;
+    margin-top: 20px !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+
+.footer-logo{
+    width: 70%;
     float: left;
 }
 
-.footer-content ul{
-    list-style-type: none;
-}
-
-.footer-content li{
-    font-size: 20px;
-    font-family: "Family Grotesk", sans-serif;
-    color: rgba(28, 91, 208, 0.961);
+.footer-logo h2{
+    font-size: 40px;
     font-weight: bold;
+    color: rgba(28, 91, 208, 0.961);
+
 }
 
-.footer-right{
+.footer-info{
+    width: 30%;
+    display: flex;
+    position: inherit;
+}
+
+.contact{
     width: 50%;
-    float: right;
 }
 
-.footer-right h6{
-    font-size: 30px;
-    font-family: "Family Grotesk", sans-serif;
-    color: rgba(28, 91, 208, 0.961);
-    font-weight: bold;
+.contact p{
+    padding: 0;
+    margin: 0;
 }
 
-.footer-right p{
-    font-size: 20px;
-    font-family: "Family Grotesk", sans-serif;
-    color: rgba(28, 91, 208, 0.961);
-    font-weight: bold;
+.address{
+    width: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
